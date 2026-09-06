@@ -57,20 +57,26 @@
             <section>
                 <fieldset>
                     <legend>3 - ¿De qué trata el juego?</legend>
-                    <label for="maf">Mafia</label>
+                    <label for="maf">Mafia.</label>
                     <input type="radio" name="tra" id="maf">
                     <br>
-                    <label for="shu">Shooter</label>
+                    <label for="postein">PostApocalipsis e infectados.</label>
+                    <input type="radio" name="tra" id="postein">
+                    <br>
+                    <label for="shu">Shooter.</label>
                     <input type="radio" name="tra" id="shu">
                     <br>
-                    <label for="infe">Infectados</label>
+                    <label for="infe">Infectados.</label>
                     <input type="radio" name="tra" id="infe">
                     <br>
-                    <label for="car">Carreras</label>
+                    <label for="car">Carreras.</label>
                     <input type="radio" name="tra" id="car">
                     <br>
-                    <label for="ml">Mundo Libre</label>
+                    <label for="ml">Mundo Libre.</label>
                     <input type="radio" name="tra" id="ml">
+                    <br>
+                    <label for="post">PostApocalipsis.</label>
+                    <input type="radio" name="tra" id="post">
                 </fieldset>
             </section>
             <section>
@@ -100,10 +106,10 @@
                     <label for="8">8. Corredores, acechadores y chasqueadores</label>
                     <input type="radio" name="tip" id="8">
                     <br>
-                    <label for="9">9. saltarines, zombies de cono y zombies de balde</label>
+                    <label for="9">9. Chasqueadores y rey rata.</label>
                     <input type="radio" name="tip" id="9">
                     <br>
-                    <label for="0">10. Homero Simpson</label>
+                    <label for="0">10. Corredores, chasqueadores y gordinflones.</label>
                     <input type="radio" name="tip" id="0">
                 </fieldset>
             </section>
@@ -121,12 +127,6 @@
                     <br>
                     <label for="gor">Gordinflón</label>
                     <input type="radio" name="fuer" id="gor">
-                    <br>
-                    <label for="tam">Tambaleante</label>
-                    <input type="radio" name="fuer" id="tam">
-                    <br>
-                    <label for="rat">Rey rata</label>
-                    <input type="radio" name="fuer" id="rat">
                 </fieldset>
             </section>
             <section>
@@ -138,21 +138,24 @@
                     <label for="no">No, también hay organizaciones humanas</label>
                     <input type="radio" name="sol" id="no">
                     <br>
-                    <label for="nop">No, también hay policia corrupta</label>
+                    <label for="nop">No, también hay politicos corruptos</label>
                     <input type="radio" name="sol" id="nop">
                 </fieldset>
             </section>
             <section>
                 <fieldset>
-                    <legend>7 - ¿Cuantos juegos son?</legend>
-                    <label for="one">1</label>
-                    <input type="radio" name="cuan" id="one">
+                    <legend>7 - ¿Tiene DLC y Online?</legend>
+                    <label for="one">No.</label>
+                    <input type="radio" name="dlo" id="one">
                     <br>
-                    <label for="two">2</label>
-                    <input type="radio" name="cuan" id="two">
+                    <label for="two">Tiene solo DLC.</label>
+                    <input type="radio" name="dlo" id="two">
                     <br>
-                    <label for="three">3</label>
-                    <input type="radio" name="cuan" id="three">
+                    <label for="three">Si</label>
+                    <input type="radio" name="dlo" id="three">
+                    <br>
+                    <label for="four">Tiene solo Online.</label>
+                    <input type="radio" name="dlo" id="for">
                 </fieldset>
             </section>
             <section>
@@ -167,34 +170,34 @@
             </section>
             <section>
                 <fieldset>
-                    <legend>9 - ¿En que año se lanzo el primer juego?</legend>
+                    <legend>9 - ¿En que año se lanzo el juego?</legend>
                     <label for="2013">2013</label>
                     <input type="radio" name="año" id="2013">
                     <br>
                     <label for="2017">2017</label>
                     <input type="radio" name="año" id="2017">
                     <br>
-                    <label for="2005">2005</label>
-                    <input type="radio" name="año" id="2005">
+                    <label for="2005">2015</label>
+                    <input type="radio" name="año" id="2015">
                     <br>
                     <label for="2010">2010</label>
                     <input type="radio" name="año" id="2010">
                     <br>
-                    <label for="1998">1998</label>
-                    <input type="radio" name="año" id="1998">
+                    <label for="1998">2020</label>
+                    <input type="radio" name="año" id="2020">
                 </fieldset>
             </section>
             <section>
                 <fieldset>
-                    <legend>10 - ¿Como se llama la acompañante de Joel durante la mayor parte de la primer entrega?</legend>
+                    <legend>10 - ¿Como se llama la acompañante de Joel durante la mayor parte del juego?</legend>
                     <label for="e">Ellie Williams</label>
                     <input type="radio" name="aco" id="e">
                     <br>
                     <label for="s">Sarah Miller</label>
                     <input type="radio" name="aco" id="s">
                     <br>
-                    <label for="p">Patricia Bulrrich</label>
-                    <input type="radio" name="aco" id="p">
+                    <label for="m">Marlene</label>
+                    <input type="radio" name="aco" id="m">
                     <br>
                     <label for="t">Tess</label>
                     <input type="radio" name="aco" id="t">
@@ -205,7 +208,7 @@
     <center>
     <footer>
         <br>
-        <button type="submit">Enviar</button>
+        <button type="submit" id="envi">Enviar</button>
     </footer>
     </center>
     </form>

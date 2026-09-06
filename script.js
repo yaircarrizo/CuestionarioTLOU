@@ -23,19 +23,19 @@ form.addEventListener("submit", function (e) {
     }
 
     const pregthree = document.querySelector('input[name="tra"]:checked');
-    if (pregthree && correcta(pregthree.id, 'infe'))
+    if (pregthree && correcta(pregthree.id, 'postein'))
     {
         puntaje++;
     }
 
     const pregfour = document.querySelector('input[name="tip"]:checked');
-    if (pregfour && correcta(pregfour.id, '6'))
+    if (pregfour && correcta(pregfour.id, '4'))
     {
         puntaje++;
     }
 
     const pregfive = document.querySelector('input[name="fuer"]:checked');
-    if (pregfive && correcta(pregfive.id, 'rat'))
+    if (pregfive && correcta(pregfive.id, 'gor'))
     {
         puntaje++;
     }
@@ -46,8 +46,8 @@ form.addEventListener("submit", function (e) {
         puntaje++;
     }
 
-    const pregseven = document.querySelector('input[name="cuan"]:checked');
-    if (pregseven && correcta(pregseven.id, 'two'))
+    const pregseven = document.querySelector('input[name="dlo"]:checked');
+    if (pregseven && correcta(pregseven.id, 'three'))
     {
         puntaje++;
     }

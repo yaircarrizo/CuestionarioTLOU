@@ -19,6 +19,7 @@ button {
     color: #ffffff;
     font-size: 20px;
     font-family: "Bebas Neue", sans-serif;
+    margin-top: 17px;
 }
 
 button:hover {
@@ -42,6 +43,16 @@ header h1
     margin-top: 45px;
     margin-bottom: 3px;
     margin-left: 20px;
+}
+#proxi
+{
+    font-size: 15px;
+    text-align: right;
+    margin-top: -15px;
+}
+a
+{
+    color: #f3f0eb;
 }
 fieldset
 {
@@ -106,14 +117,36 @@ nav {
 }
 #preguu
 {
-    background-image: url(telasofus2.jpg);
+    background-image: url(telasofus3.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
+#envi
+{S
+    border: none;
+    color: #f3f0eb;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 22px;
+    letter-spacing: 4px;
+    cursor: pointer;
+    animation: parpadeoColor 1.6s ease-in-out infinite;
+}
+#envi:hover
+{
+    background-color: rgba(250, 207, 64, 0.5);
+    color: #f3f0eb;
+    font-size: 24px;
+    animation: none;
+}
+@keyframes parpadeoColor
+{
+    0%, 100% {background-color: #4a2c17;}
+    50% {background-color: #b30000;}
+}
 #fin
 {
-    background-image: url(telasofus3.jpg);
+    background-image: url(telasofus4.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -126,7 +159,6 @@ nav {
     }
     #preguu 
     {
-        background-attachment: scroll;
         background-position: top center;
     }
 }
