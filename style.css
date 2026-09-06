@@ -161,4 +161,17 @@ nav {
     {
         background-position: top center;
     }
+    #proxi
+    {
+        margin-top: 10px;
+    }
+    button 
+    {
+        font-size: 16px;
+    }
+    img
+    {
+        height: 280px;
+        width: auto;
+    }
 }
