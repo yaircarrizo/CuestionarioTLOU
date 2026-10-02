@@ -118,6 +118,7 @@ nav {
 #preguu
 {
     background-image: url(telasofus3.jpg);
+
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -150,6 +151,16 @@ nav {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+#tetito
+{
+    margin-top: 10px;
 }
 @media screen and (max-width: 600px)
 {
@@ -174,4 +185,13 @@ nav {
         height: 280px;
         width: auto;
     }
+}
+#fin footer
+{
+    text-align: center;
+    padding: 1rem;
+}
+#fin main
+{
+    flex: 1;
 }
