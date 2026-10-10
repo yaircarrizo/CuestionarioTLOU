@@ -156,11 +156,43 @@ nav {
     min-height: 100vh;
     height: 100%;
     margin: 0;
-    text-align: center;
 }
 #tetito
 {
     margin-top: 10px;
+    max-width: fit-content;
+    margin-top: -50;
+}
+#fin fieldset
+{
+    box-shadow: 6px 18px 30px rgb(0, 0, 0, 15);
+    border: none;
+    border-top: 1px solid;
+    width: fit-content;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    max-width: 450px;
+}
+@media screen and (min-width: 600px)
+{
+    #fin fieldset
+    {
+        margin-left: 100px;
+    }
+}
+#lege
+{
+    border: 1px solid;
+}
+#result
+{
+    margin-left: 25px;
+}
+#fin i
+{
+    margin-left: 12px;
 }
 @media screen and (max-width: 600px)
 {
@@ -194,4 +226,10 @@ nav {
 #fin main
 {
     flex: 1;
+}
+article
+{
+    background-color: rgb(26, 26, 184, 0.1);
+    padding: 5px;
+    border-radius: 10px;
 }
